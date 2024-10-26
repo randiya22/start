@@ -1,0 +1,65 @@
+Jan
+
+05 14:25:49 sprout java [1184]: [14:25:49 INFO]: Closing Server
+
+Jan
+
+05 14:25:50 sprout systemd[1]: mc1.service: Main process exited, code-exited, status-143/n/a
+
+Jan
+
+14:25:50 sprout systemd[1]: mc1.service: Failed with result 'exit-code'.
+
+05
+
+Jan 05 14:25:50 sprout systemd[1]: Stopped mc1.service.
+
+--Reboot-
+
+sprout systemd[1]: Started Minecraft Test Service.
+
+Jan 05 15:57:52
+
+Jan 05 15:57:55 sprout java [3407]: Starting org.bukkit.craftbukkit. Main
+
+Jan 05 15:57:56 sprout java [3407]: System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.1+12-39) Host: Linux 5.10.63-v8+ (aarch64)
+
+Jan 05 15:57:56 sprout java [3407]: Loading libraries, please wait...
+
+Jan 05
+
+15:57:57 sprout java [3407]: 2022-01-05 15:57:57,638 ServerMain WARN Advanced terminal features are not available in this en
+
+vironment
+
+Jan 05 15:58:18 sprout java [3407]: [15:58:18 INFO]: Environment: authHost="https://authserver.mojang.com', accountsHost='https://a pi.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost-'https://api.minecraftservices.com', name 'PROD
+
+Jan 05 15:58:20 sprout java [3407]: [15:58:20 INFO]: Reloading ResourceManager: Default, bukkit
+
+Jan
+
+05 15:58:25 sprout java [3407]: [15:58:25 INFO]: Loaded 7 recipes
+
+Jan 05 15:58:32 sprout java[3407]: [15:58:32 INFO]: Starting minecraft server version 1.18.1
+
+Jan 05 15:58332 sprout java [3407]: [15:58:32 INFO]: Loading properties
+
+Jan 05 15:58:32 sprout java[3407]:
+
+[15:58:32 INFO]: This server is running Paper version git-Paper-133 (MC: 1.18.1) (Implementing
+
+API version 1.18.1-R0.1-SNAPSHOT) (Git: 5030019)
+
+Jan 05 15:58:32 sprout java [3407]: [15:58:32 INFO]: Server Ping Player Sample Count: 12
+
+Jan 05 15:58:32 sprout java [3407]: Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Default game type: SURVIVAL
+
+[15:58:32 INFO]: Using 4 threads for Netty based 10
+
+Jan 05 15:58:33 sprout javα [3407]: [15:58:33 INFO]: Generating keypair
+
+Jan 05 15:58:33 sprout java[3407]: [15:58:33 INFO]: Starting Minecraft server on *:25568
+
+Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Using epoll channel type
+
+Jan 05 15:58:33 sprout java [3407]: Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity. [15:58:33 INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
