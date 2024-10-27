@@ -1,65 +1,102 @@
-Jan
+Starting org.bukkit.craftbukkit.Main
 
-05 14:25:49 sprout java [1184]: [14:25:49 INFO]: Closing Server
+*** Warning, you've not updated in a while! ***
 
-Jan
+System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.10+7) Host: Linux 5.4.0-198- generic (amd64)
 
-05 14:25:50 sprout systemd[1]: mc1.service: Main process exited, code-exited, status-143/n/a
+Loading libraries, please wait...
 
-Jan
+[03:52:00 INFO]: Environment: authHost='https://authserver.mojang.com', accounts Host='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', s ervicesHost='https://api.minecraftservices.com', name='PROD'
 
-14:25:50 sprout systemd[1]: mc1.service: Failed with result 'exit-code'.
+[03:52:02 INFO]: Loaded 7 recipes
 
-05
+[03:52:03 INFO]: Starting minecraft server version 1.20.1
 
-Jan 05 14:25:50 sprout systemd[1]: Stopped mc1.service.
+[03:52:03 INFO]: Loading properties
 
---Reboot-
+03:52:04 INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1)
 
-sprout systemd[1]: Started Minecraft Test Service.
+[ (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
 
-Jan 05 15:57:52
+[03:52:04 INFO]: Server Ping Player Sample Count: 12
 
-Jan 05 15:57:55 sprout java [3407]: Starting org.bukkit.craftbukkit. Main
+[03:52:04 INFO]: Using 4 threads for Netty based IO
 
-Jan 05 15:57:56 sprout java [3407]: System Info: Java 17 (OpenJDK 64-Bit Server VM 17.0.1+12-39) Host: Linux 5.10.63-v8+ (aarch64)
+[03:52:04 WARN]: [!] The timings profiler has been enabled but has been schedule d for removal from Paper in the future. We recommend installing the spark profiler as a replacement: https://spark.lucko .me/
 
-Jan 05 15:57:56 sprout java [3407]: Loading libraries, please wait...
+For more information please visit: https://github.com/PaperMC/Paper/issues/8948
 
-Jan 05
+[03:52:04 INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 wor
 
-15:57:57 sprout java [3407]: 2022-01-05 15:57:57,638 ServerMain WARN Advanced terminal features are not available in this en
+ker threads, and gen parallelism of 2 threads
 
-vironment
+[03:52:05 INFO]: Default game type: ADVENTURE
 
-Jan 05 15:58:18 sprout java [3407]: [15:58:18 INFO]: Environment: authHost="https://authserver.mojang.com', accountsHost='https://a pi.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost-'https://api.minecraftservices.com', name 'PROD
+[03:52:05 INFO]: Generating keypair
 
-Jan 05 15:58:20 sprout java [3407]: [15:58:20 INFO]: Reloading ResourceManager: Default, bukkit
+[03:52:05 INFO]: Starting Minecraft server on 0.0.0.0:4031
 
-Jan
+[03:52:05 INFO]: Using epoll channel type
 
-05 15:58:25 sprout java [3407]: [15:58:25 INFO]: Loaded 7 recipes
+[03:52:05 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocit
 
-Jan 05 15:58:32 sprout java[3407]: [15:58:32 INFO]: Starting minecraft server version 1.18.1
+y.
 
-Jan 05 15:58332 sprout java [3407]: [15:58:32 INFO]: Loading properties
+[03:52:05 INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+04334644422770728&scope=bot&permissions=8
 
-Jan 05 15:58:32 sprout java[3407]:
+[03:52:26 INFO]: [PlaceholderAPI] Successfully registered expansion: citizenspla
 
-[15:58:32 INFO]: This server is running Paper version git-Paper-133 (MC: 1.18.1) (Implementing
+ceholder [1.0.0]
 
-API version 1.18.1-R0.1-SNAPSHOT) (Git: 5030019)
+[03:52:26 INFO]: [Citizens] Loaded economy handling via Vault.
 
-Jan 05 15:58:32 sprout java [3407]: [15:58:32 INFO]: Server Ping Player Sample Count: 12
+[03:52:26 INFO]: [PremiumVanish] Enabling PremiumVanish v2.9.5 [03:52:26 INFO]: [PremiumVanish] Hooked into PaperSpigot for server list ping su
 
-Jan 05 15:58:32 sprout java [3407]: Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Default game type: SURVIVAL
+pport
 
-[15:58:32 INFO]: Using 4 threads for Netty based 10
+[03:52:26 INFO]: [PlaceholderAPI] Successfully registered expansion: premiumvani
 
-Jan 05 15:58:33 sprout javα [3407]: [15:58:33 INFO]: Generating keypair
+sh [2.9.5]
 
-Jan 05 15:58:33 sprout java[3407]: [15:58:33 INFO]: Starting Minecraft server on *:25568
+[03:52:26 INFO]: [PremiumVanish] Hooked into Placeholder API
 
-Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Using epoll channel type
+[03:52:26 INFO]: [PremiumVanish] Hooked into Essentials
 
-Jan 05 15:58:33 sprout java [3407]: Jan 05 15:58:33 sprout java [3407]: [15:58:33 INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity. [15:58:33 INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
+[03:52:26 INFO]: [PremiumVanish] Hooked into DiscordSRV
+
+[03:52:26 INFO]: [PremiumVanish] Hooked into Citizens
+
+[03:52:26 INFO]: [PremiumVanish] Hooked into PaperSpigot for advancement interce
+
+ption
+
+[03:52:26 INFO]: [HubPvP] Enabling HubPvP v1.4.3
+
+[03:52:26 INFO]: [HubPvP] §aHubPvP v1.4.3 enabled.
+
+[03:52:26 INFO]: [spark] Enabling spark v1.10.64
+
+[03:52:26 INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+
+[03:52:26 INFO]: [spark] Starting background profiler...
+
+[03:52:27 INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10
+
+.64]
+
+03:52:27 INFO]: [spark] Registered PlaceholderAPI placeholders
+
+[ [03:52:27 INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.2-SNAPSHOT
+
+[03:52:27 INFO]: [ajLeaderboards] Enabling aj Leaderboards v2.9.0
+
+[03:52:27 INFO]: [aj Leaderboards] Using H2 flatfile for board cache. (h2)
+
+[03:52:28 INFO]: [aj Leaderboards] Loaded 2 boards
+
+[03:52:28 INFO]: [PlaceholderAPI] Successfully registered expansion: ajlb [2.9.0
+
+]
+
+[03:52:28 INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
