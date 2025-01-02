@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaesyr labs - Powerful VPS Hosting for Your Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .animate-fadeInUp {
+            animation: fadeInUp 0.5s ease-out;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotateY(0deg);
+            }
+            to {
+                transform: rotateY(360deg);
+            }
+        }
+        .animate-rotate {
+            animation: rotate 2s linear infinite;
+        }
+        .scroll-smooth {
+            scroll-behavior: smooth;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white scroll-smooth">
+    <header class="fixed w-full z-50 bg-gray-900 bg-opacity-90 backdrop-blur-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="flex items-center">
+                <img src="https://cdn.discordapp.com/attachments/1323165474250555462/1324260952786600016/ccfbd7dedea89e4f0cbe66d69107aab7.webp?ex=6777819e&is=6776301e&hm=cb6735e415b98559086a055daa6ab8cb6b7e0f26bc000997db6ad46644bf607d&" alt="VPS Host Logo" class="w-10 h-10 mr-2">
+                <span class="text-2xl font-bold">Kaesyr labs</span>
+            </a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#features" class="hover:text-blue-400 transition-colors">Features</a>
+                <a href="#nodes" class="hover:text-blue-400 transition-colors">Nodes</a>
+                <a href="#pricing" class="hover:text-blue-400 transition-colors">Pricing</a>
+                <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
+                <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 py-2">
+            <a href="#features" class="block px-4 py-2 hover:bg-gray-700">Features</a>
+            <a href="#nodes" class="block px-4 py-2 hover:bg-gray-700">Nodes</a>
+            <a href="#pricing" class="block px-4 py-2 hover:bg-gray-700">Pricing</a>
+            <a href="#about" class="block px-4 py-2 hover:bg-gray-700">About</a>
+            <a href="#contact" class="block px-4 py-2 hover:bg-gray-700">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="relative min-h-screen flex items-center justify-center text-center overflow-hidden">
+            <div class="absolute inset-0 z-0 bg-gradient-to-r from-blue-600 to-purple-600 opacity-20"></div>
+            <div class="absolute inset-0 z-10 backdrop-blur-sm"></div>
+            <div class="container mx-auto px-4 z-20">
+                <div class="mb-8 float-animation">
+                    <img src="https://cdn.discordapp.com/attachments/1323165474250555462/1324260952786600016/ccfbd7dedea89e4f0cbe66d69107aab7.webp?ex=6777819e&is=6776301e&hm=cb6735e415b98559086a055daa6ab8cb6b7e0f26bc000997db6ad46644bf607d&" alt="VPS Host Logo" class="w-32 h-32 mx-auto">
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 animate-fadeInUp">Powerful VPS Hosting for Your Projects - Kaesyr labs</h1>
+                <p class="text-xl md:text-2xl mb-8 animate-fadeInUp" style="animation-delay: 0.2s;">Fast, secure, and scalable virtual private servers tailored to your needs</p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 animate-fadeInUp" style="animation-delay: 0.4s;">
+                        Get Started <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="https://discord.gg/2QaUcdMCWa" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300 animate-fadeInUp" style="animation-delay: 0.5s;">
+                        Join Discord <i class="fab fa-discord ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center animate-fadeInUp">Our Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <i class="fas fa-microchip text-4xl mb-4 text-blue-400"></i>
+                        <h3 class="text-xl font-semibold mb-2">High Performance</h3>
+                        <p class="text-gray-300">Cutting-edge hardware for optimal speed</p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg animate-fadeInUp" style="animation-delay: 0.2s;">
+                        <i class="fas fa-shield-alt text-4xl mb-4 text-blue-400"></i>
+                        <h3 class="text-xl font-semibold mb-2">Enhanced Security</h3>
+                        <p class="text-gray-300">Advanced protection against threats</p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg animate-fadeInUp" style="animation-delay: 0.3s;">
+                        <i class="fas fa-bolt text-4xl mb-4 text-blue-400"></i>
+                        <h3 class="text-xl font-semibold mb-2">Instant Deployment</h3>
+                        <p class="text-gray-300">Get your server up and running in minutes</p>
+                    </div>
+                    <div class="bg-gray-700 p-6 rounded-lg shadow-lg animate-fadeInUp" style="animation-delay: 0.4s;">
+                        <i class="fas fa-clock text-4xl mb-4 text-blue-400"></i>
+                        <h3 class="text-xl font-semibold mb-2">24/7 Support</h3>
+                        <p class="text-gray-300">Round-the-clock assistance for your needs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nodes" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center animate-fadeInUp">Our Global Nodes</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <i class="fas fa-globe text-4xl mb-4 text-blue-400 animate-rotate"></i>
+                        <h3 class="text-xl font-semibold mb-2">India</h3>
+                        <p class="text-gray-300">Latency: 5ms</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.2s;">
+                        <i class="fas fa-globe text-4xl mb-4 text-blue-400 animate-rotate"></i>
+                        <h3 class="text-xl font-semibold mb-2">USA</h3>
+                        <p class="text-gray-300">Latency: 8ms</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.3s;">
+                        <i class="fas fa-globe text-4xl mb-4 text-blue-400 animate-rotate"></i>
+                        <h3 class="text-xl font-semibold mb-2">Germany</h3>
+                        <p class="text-gray-300">Latency: 12ms</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.4s;">
+                        <i class="fas fa-globe text-4xl mb-4 text-blue-400 animate-rotate"></i>
+                        <h3 class="text-xl font-semibold mb-2">Korea</h3>
+                        <p class="text-gray-300">Latency: 15ms</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center animate-fadeInUp">Pricing Plans</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-700 p-8 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <h3 class="text-2xl font-bold mb-4">Level-1</h3>
+                        <p class="text-4xl font-bold mb-6">$1<span class="text-xl">/mo</span></p>
+                        <ul class="mb-8">
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>1 vCPU
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>4GB RAM
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>20GB SSD
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>Any Location
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>24/7 Support
+                            </li>
+                        </ul>
+                        <a href="https://discord.gg/2QaUcdMCWa" class="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-700 p-8 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <h3 class="text-2xl font-bold mb-4">Level-2</h3>
+                        <p class="text-4xl font-bold mb-6">$2<span class="text-xl">/mo</span></p>
+                        <ul class="mb-8">
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>2 vCPU
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>6GB RAM
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>60GB SSD
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>Any Location
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>24/7 Support
+                            </li>
+                        </ul>
+                        <a href="https://discord.gg/2QaUcdMCWa" class="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-700 p-8 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <h3 class="text-2xl font-bold mb-4">Level-3</h3>
+                        <p class="text-4xl font-bold mb-6">$3<span class="text-xl">/mo</span></p>
+                        <ul class="mb-8">
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>4 vCPU
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>8GB RAM
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>120GB SSD
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>Any Location
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>24/7 Support
+                            </li>
+                        </ul>
+                        <a href="https://discord.gg/2QaUcdMCWa" class="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-700 p-8 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <h3 class="text-2xl font-bold mb-4">Enterprise-small</h3>
+                        <p class="text-4xl font-bold mb-6">$6<span class="text-xl">/mo</span></p>
+                        <ul class="mb-8">
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>6 vCPU
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>16GB RAM
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>200GB SSD
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>Any Location
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>24/7 Support
+                            </li>
+                        </ul>
+                        <a href="https://discord.gg/2QaUcdMCWa" class="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Choose Plan</a>
+                    </div>
+                    <div class="bg-gray-700 p-8 rounded-lg text-center shadow-lg animate-fadeInUp" style="animation-delay: 0.1s;">
+                        <h3 class="text-2xl font-bold mb-4">Enterprise-large</h3>
+                        <p class="text-4xl font-bold mb-6">$10<span class="text-xl">/mo</span></p>
+                        <ul class="mb-8">
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>12 vCPU
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>3GB RAM
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>500GB SSD
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>Any Location
+                            </li>
+                            <li class="flex items-center justify-center mb-2">
+                                <i class="fas fa-check text-green-400 mr-2"></i>24/7 Support
+                            </li>
+                        </ul>
+                        <a href="https://discord.gg/2QaUcdMCWa" class="inline-block w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Choose Plan</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20 bg-gray-900">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center animate-fadeInUp">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About Us</h2>
+                    <p class="text-xl mb-8">
+                        We are a team of passionate tech enthusiasts dedicated to providing top-notch VPS hosting solutions. With years of experience in the industry, we understand the importance of reliable, high-performance servers for your projects.
+                    </p>
+                    <p class="text-xl">
+                        Our mission is to empower developers, businesses, and individuals with cutting-edge VPS technology, ensuring your online presence is always at its best.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-gray-800">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center animate-fadeInUp">Contact Us</h2>
+                <div class="max-w-2xl mx-auto animate-fadeInUp">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block mb-2">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" class="w-full px-3 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" class="w-full px-3 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your message here..." class="w-full px-3 py-2 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="https://discord.gg/2QaUcdMCWa" class="text-gray-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-discord text-2xl"></i>
+                </a>
+            </div>
+            <p class="mb-2">&copy; 2023 VPS Host. All rights reserved.</p>
+            <p class="text-sm text-gray-400">Join our community on <a href="https://discord.gg/2QaUcdMCWa" class="text-blue-400 hover:underline">Discord</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Scroll animation
+        const animateOnScroll = () => {
+            const elements = document.querySelectorAll('.animate-fadeInUp');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+                if (elementTop < windowHeight - 100) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        };
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+    </script>
+</body>
+</html>
+
