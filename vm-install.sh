@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 echo -e "\033[31mPick your VM OS"
 echo -e "\033[32m1\033[0m) \033[0;33mXubuntu 24.04\033[0m"
 echo -e "\033[32m2\033[0m) \033[0;33mKubuntu 24.04\033[0m"
